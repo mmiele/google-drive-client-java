@@ -14,9 +14,9 @@ You must have Maven installed. The dependencies are satisfied by building the Ma
 <h2>Security Credentials</h2>
 You need to set up your Google security credentials before the sample code is able to connect to the Google Drive Service. You can do this by creating a file named "client_secrets.json" at ~/.store/drive_sample (C:\Users\USER_NAME.store\drive_sample\ for Windows users) and saving the following information in the file:
 <ol>
-	<li><b>Client ID</b></li>
-	<li><b>Client secrets</b></li>
-	<li><b>Other...</b>
+	<li>Client ID</li>
+	<li>Client secrets</li>
+	<li>Other... </li>
 </ol>
 You obtain this information by downloading the JSON format of the <i>client information for native application</i> of your project at: 
 <a href="https://console.developers.google.com/project" target="_blank">Google console</a>. Then copy this information in the <i>secretsFile</i> such as client_secrets.json. <b>Keep this file in a safe place</b>.
