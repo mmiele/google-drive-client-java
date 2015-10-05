@@ -32,7 +32,7 @@ The application assumes that a file exists that contains default settings. The f
   "folderID": "<default source folder ID>",
   "sourceFile": "<default source file name>",
   "textTargetFileName" : "<default target file name>",
-  "email": "<your e-mail"
+  "email": "<your e-mail">
 }
 </pre>
 			 
