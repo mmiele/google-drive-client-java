@@ -21,6 +21,21 @@ You need to set up your Google security credentials before the sample code is ab
 You obtain this information by downloading the JSON format of the <i>client information for native application</i> of your project at: 
 <a href="https://console.developers.google.com/project" target="_blank">Google console</a>. Then copy this information in the <i>secretsFile</i> such as client_secrets.json. <b>Keep this file in a safe place</b>.
 
+
+<h2>Default Settings</h2>
+The application assumes that a file exists that contains default settings. The file is assumed to be at ~/.store/drive_sample/sample_settings.json  (C:\Users\USER_NAME.store\drive_sample\sample_settings.json for Windows users). The settigs are in Jason format similar to the following: 
+
+<pre>
+{
+  "project": "<your project ID>",
+  "sourceFileID": "<default source file ID>",
+  "folderID": "<default source folder ID>",
+  "sourceFile": "<default source file name>",
+  "textTargetFileName" : "<default target file name>",
+  "email": "<your e-mail"
+}
+</pre>
+			 
 <h2>Running the Example</h2>
 The application connects to Amazon's <a href="http://aws.amazon.com/s3" target="_blank">Simple Storage Service (S3)</a>, and allows the user to create a bucket, upload an object into the bucket, download the object, delete the object and delete the bucket. All you need to do is run it by following these steps:
 <ol>
