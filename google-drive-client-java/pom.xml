@@ -23,7 +23,7 @@
   		<!-- Needed when using ClientAuthentication.jar  -->
   		<dependency>
   			<groupId>com.google.oauth-client</groupId>
-  			<artifactId>google-oauth-client-jetty</artifactId>
+  			<artifactId>google-oauth-client-jetty</artifactId> 
   			<version>${project.oauth.version}</version>
 		</dependency>
 		
