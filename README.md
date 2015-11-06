@@ -37,7 +37,7 @@ The application assumes that a file exists that contains default settings. The f
 </pre>
 			 
 <h2>Running the Example</h2>
-The application connects to Amazon's <a href="http://aws.amazon.com/s3" target="_blank">Simple Storage Service (S3)</a>, and allows the user to create a bucket, upload an object into the bucket, download the object, delete the object and delete the bucket. All you need to do is run it by following these steps:
+The application connects to <a href="https://developers.google.com/drive/" target="_blank">Google Drive</a>, and allows the user to upload a file into the account, delet a file, list the files in the account and so on. All you need to do is run it by following these steps:
 <ol>
 	<li>From the project, create an executable JAR</li>
 	<li>From a terminal window, go to the directory containing the JAR and execute a command similar to 
