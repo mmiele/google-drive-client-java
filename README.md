@@ -46,7 +46,7 @@ The application connects to <a href="https://developers.google.com/drive/" targe
   	java -jar google-drive-client-java.jar
 	</pre>	
 	</li>
-</ol>
+</ol> 
 
 <h2>License</h2>
 This sample application is distributed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License, Version 2.0</a>.
